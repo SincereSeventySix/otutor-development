@@ -140,44 +140,34 @@ iframe {
   }
 
   #form_wrap1,
-  #wrapform,
   #log {
     position: relative;
     left: auto;
     right: auto;
     top: auto;
-    float: none;
     width: auto;
-    max-width: 100%;
+    max-width: calc(100% - 1.5rem);
     height: auto;
-    margin: 0.75rem;
+    margin: 0.75rem auto;
     box-sizing: border-box;
   }
 
-  #form_wrap1 table,
-  #log table {
-    width: 100%;
-  }
-
-  #form_wrap1 th,
-  #log th {
-    display: block;
-    text-align: left;
-    padding-bottom: 0;
-  }
-
-  #form_wrap1 td,
-  #log td {
-    display: block;
-    text-align: left;
-    padding-top: 0.2rem;
+  #wrapform {
+    position: relative;
+    left: auto;
+    top: auto;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0.5rem;
+    box-sizing: border-box;
   }
 
   #form_wrap1 input[type="text"],
   #form_wrap1 input[type="password"],
   #log input[type="text"],
   #log input[type="password"] {
-    width: 100%;
+    max-width: 100%;
     box-sizing: border-box;
   }
 
@@ -187,7 +177,6 @@ iframe {
     left: auto;
     right: auto;
     top: auto;
-    display: block;
     margin: 1rem auto;
     max-width: 100%;
   }

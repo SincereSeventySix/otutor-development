@@ -134,18 +134,16 @@ p {
 /* styling of the form */
 
 #form_wrap1 {
-  margin: 24px auto 40px;
-  padding: 0 0 28px;
-  left: auto;
-  right: auto;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  left:  29.7%;
+  right: 29.7%;
   position: relative;
   text-align: center;
-  height: auto;
+  height: 900px;
   width: 700px;
-  max-width: calc(100% - 24px);
   border: 2px solid #fcebe1;
   border-radius: 5px;
-  box-sizing: border-box;
 }
 
 h1.form {
@@ -167,26 +165,22 @@ h3.form {
 
 
 div#wrapform {
-  left: auto;
+  left: 23px;
   position: relative;
-  top: auto;
-  height: auto;
-  width: auto;
-  margin: 0 23px;
+  top: 7px;
+  height: 480px;
+  width: 650px;
   border: 2px solid #fcebe1;
   padding-bottom: 20px;
-  background: #7ea4b8 url('images/bluegradient.png');
+  background: url('images/bluegradient.png');
   border-radius: 5px;
-  box-sizing: border-box;
 }
 
 input#SubBut {
 position: relative;
-left: auto;
-top: auto;
-display: block;
-margin: 24px auto 0;
-background: #7ea4b8 url('images/bluegradient.png');
+left: 10px;
+top: 40px;
+background: url('images/bluegradient.png');
 color: #fcebe1;
 height: 55px;
 width: 170px;
@@ -288,30 +282,27 @@ th, td {
   
   
   #log {
-    margin: 24px auto 20px;
+    margin: 0px 0px 0px 0px;
     padding: 10px 5px 20px 28px;
-    left: auto;
-    right: auto;
+    left:  38.4%;
+    right: 38.4%;
     position: relative;
     width: 400px;
-    max-width: calc(100% - 24px);
     font-size: 1.2em;
     font-family: 'Varela Round', sans-serif;
-    background: #7ea4b8 url('images/bluegradient.png');
+    background: url('images/bluegradient.png');
     color: #fcebe1;
     border-radius: 4px;
     border: 2px solid #fcebe1;
-    box-sizing: border-box;
   }
   
   input#logBut {
-    display: block;
-    margin: 15px auto 0;
+    margin: 15px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-    left: auto;
-    right: auto;
+    left:  45.5%;
+    right: 45.5%;
     position: relative;
-    background: #7ea4b8 url('images/bluegradient.png');
+    background: url('images/bluegradient.png');
     color: #fcebe1;
     height: 55px;
     width: 170px;
