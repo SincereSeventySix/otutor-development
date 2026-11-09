@@ -138,4 +138,57 @@ iframe {
     margin: 0;
     box-sizing: border-box;
   }
+
+  #form_wrap1,
+  #wrapform,
+  #log {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    float: none;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0.75rem;
+    box-sizing: border-box;
+  }
+
+  #form_wrap1 table,
+  #log table {
+    width: 100%;
+  }
+
+  #form_wrap1 th,
+  #log th {
+    display: block;
+    text-align: left;
+    padding-bottom: 0;
+  }
+
+  #form_wrap1 td,
+  #log td {
+    display: block;
+    text-align: left;
+    padding-top: 0.2rem;
+  }
+
+  #form_wrap1 input[type="text"],
+  #form_wrap1 input[type="password"],
+  #log input[type="text"],
+  #log input[type="password"] {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #SubBut,
+  #logBut {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+  }
 }
