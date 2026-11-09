@@ -1,0 +1,40 @@
+#wrapwork_saved {
+  position: relative;
+  width: 900px;
+  min-height: 520px;
+  margin: 20px auto;
+  border: 2px solid #fcebe1;
+  border-radius: 5px;
+  background: #65c3f8;
+}
+
+#vid_player {
+  width: 480px;
+  height: 270px;
+  margin: 24px;
+  background: #fcebe1;
+  border-radius: 6px;
+}
+
+.video_saved,
+.video_blank {
+  display: block;
+  width: 240px;
+  margin: 4px;
+  padding: 8px;
+  border: 2px solid #fcebe1;
+  border-radius: 4px;
+  background: #fcebe1;
+  color: #65c3f8;
+  font-weight: bold;
+}
+
+.video_blank {
+  opacity: 0.55;
+}
+
+.video_saved:hover {
+  background: #65c3f8;
+  color: #fcebe1;
+  cursor: pointer;
+}

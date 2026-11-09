@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-size: 1.4em;
   font-family: 'Varela Round', sans-serif;
-  background: url('images/bgBody.jpg');
+  background: #7eb0c8 url('images/bgBody.jpg');
   height: 100%;
 }
 

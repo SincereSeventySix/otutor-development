@@ -1,0 +1,57 @@
+#preConHold {
+  width: 900px;
+  margin: 10px auto 0;
+}
+
+.preConVids {
+  display: inline-block;
+  width: 160px;
+  height: 28px;
+  margin: 4px;
+  background: #fcebe1;
+  border-radius: 4px;
+}
+
+#logoVid {
+  width: 420px;
+  height: 280px;
+  margin: 30px auto;
+  background: #fcebe1;
+  border-radius: 6px;
+}
+
+#lessonOrder {
+  color: #fcebe1;
+  margin: 8px;
+}
+
+#video_table {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lesson_active,
+.lesson_complete,
+.lesson_inactive {
+  margin: 4px;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.lesson_active {
+  background: #fcebe1;
+  color: #65c3f8;
+}
+
+.lesson_complete {
+  background: #65c3f8;
+  color: #fcebe1;
+}
+
+.lesson_inactive {
+  background: #fcebe1;
+  color: #65c3f8;
+  opacity: 0.55;
+}

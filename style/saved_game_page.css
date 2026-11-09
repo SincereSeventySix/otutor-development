@@ -1,0 +1,22 @@
+.game_saved,
+.game_blank {
+  display: inline-block;
+  height: 55px;
+  margin: 2px;
+  padding: 4px;
+  border: 2px solid #fcebe1;
+  border-radius: 4px;
+  background: #fcebe1;
+  color: #65c3f8;
+  font-weight: bold;
+}
+
+.game_blank {
+  opacity: 0.55;
+}
+
+.game_saved:hover {
+  background: #65c3f8;
+  color: #fcebe1;
+  cursor: pointer;
+}

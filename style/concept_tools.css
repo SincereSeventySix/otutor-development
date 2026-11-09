@@ -1,0 +1,27 @@
+#wrapwork_concept {
+  position: relative;
+  width: 900px;
+  min-height: 520px;
+  margin: 20px auto;
+  border: 2px solid #fcebe1;
+  border-radius: 5px;
+  background: #65c3f8;
+}
+
+.tool_active {
+  display: inline-block;
+  height: 55px;
+  margin: 2px;
+  padding: 4px;
+  border: 2px solid #fcebe1;
+  border-radius: 4px;
+  background: #fcebe1;
+  color: #65c3f8;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tool_active:hover {
+  background: #65c3f8;
+  color: #fcebe1;
+}
