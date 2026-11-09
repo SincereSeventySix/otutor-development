@@ -1,4 +1,4 @@
-# Content_Management_System_Online_Learning_Platform
+# Otutor development
 
 An Online Learning Platform I built in 2019 using HTML/CSS/JS (Jquery + Ajax) /PhP/MySQL
 
