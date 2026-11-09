@@ -225,7 +225,7 @@ th, td {
 
 .login3 {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 8px;
   justify-content: flex-end;
   clear: both;
