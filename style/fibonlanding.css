@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-size: 1.4em;
   font-family: 'Varela Round', sans-serif;
-  background: #7eb0c8 url('images/bgBody.jpg');
+  background: url('images/bgBody.jpg');
   height: 100%;
 }
 
@@ -144,6 +144,7 @@ p {
   width: 700px;
   border: 2px solid #fcebe1;
   border-radius: 5px;
+
 }
 
 h1.form {
@@ -221,28 +222,6 @@ th, td {
   font-family: 'Varela Round', sans-serif;
   color: #F89A65;
   }
-
-.login3 {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 8px;
-  justify-content: flex-end;
-  clear: both;
-  margin: 12px 16px 16px;
-  position: static;
-}
-
-.login3 a {
-  display: inline-block;
-  white-space: nowrap;
-  padding: 10px 16px;
-  background: #65c3f8;
-  color: #fcebe1;
-  text-decoration: none;
-  border: 2px solid #fcebe1;
-  border-radius: 4px;
-  line-height: 1.2;
-}
 
 .login2 {
   padding: 0px 0px 0px 0px;
@@ -1118,6 +1097,5 @@ input#testSubmit:hover {
   left: 680px;
   color:#fcebe1;
 }
-
 
 

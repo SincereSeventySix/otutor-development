@@ -2,7 +2,6 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php
      if (!isset($_SESSION['username'])) {
        echo '<title>Otutor</title>';
@@ -11,12 +10,10 @@
      }
      ?>
     <link rel="stylesheet" href="style/fibonlanding.css">
-    <link rel="stylesheet" href="style/otutor-mobile.css?v=5">
     <title>Classname Home</title>
   </head>
   <body>
     <div id="header">
-    <button type="button" class="nav-toggle" aria-expanded="false">Menu</button>
     <div id="socialMediaBar">
     <a href="https://www.youtube.com/channel/UCAaEYeSaEVU06xJptAJVBCg?view_as=subscriber"><div id="socialTY" class="social"></div></a>
     <a href="https://www.instagram.com/otutoronline/?hl=en"><div id="socialIN" class="social"></div></a>
@@ -36,11 +33,4 @@
     </div>
 
 
-    <script>
-      document.addEventListener("click", function (event) {
-        var button = event.target.closest(".nav-toggle");
-        if (!button) return;
-        var open = document.body.classList.toggle("nav-open");
-        button.setAttribute("aria-expanded", open ? "true" : "false");
-      });
-    </script>
+    
