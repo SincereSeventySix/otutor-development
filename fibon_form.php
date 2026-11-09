@@ -85,11 +85,11 @@ echo <<<_END
         </tr>
         <tr>
           <th><label for="studentage">Student Age:</label></th>
-          <th><input type="text" id="studentage" name="studentage" /><br /></th>
+          <td><input type="text" id="studentage" name="studentage" /><br /></td>
         </tr>
         <tr>
           <th><label for="student_gen">Student Gender:</label></th>
-          <th><input type="text" id="student_gen" name="student_gen" /><br /></th>
+          <td><input type="text" id="student_gen" name="student_gen" /><br /></td>
         </tr>
         <tr>
           <th><label for="curyear">Current School Year:</label></th>
@@ -97,8 +97,7 @@ echo <<<_END
         </tr>
         <tr>
           <th><label for="english_lev">English Level:</label></th>
-          <td>Intermediate <input id="english_lev" name="english_lev" type="radio" value="Intermediate" /> </td>
-          <td>Fluent <input id="english_lev" name="english_lev" type="radio" value="Fluent" /> <br /> </td>
+          <td>Intermediate <input id="english_lev" name="english_lev" type="radio" value="Intermediate" /> Fluent <input name="english_lev" type="radio" value="Fluent" /></td>
         </tr>
         <tr>
           <th><label for="username">Child's Username:</label></th>
