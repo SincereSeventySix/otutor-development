@@ -8,7 +8,7 @@
       
      if (isset($_SESSION['username'])) {
         echo '<title>' . $_SESSION['username'] . '\'s Otutor</title>';
-        echo '<link rel="stylesheet" href="style/fibonlanding.css">';
+        echo '<link rel="stylesheet" href="style/fibonlanding.css?v=4">';
         echo '<link rel="stylesheet" href="style/otutor-mobile.css">';
         echo '<link rel="stylesheet" href="style/video_lesson_page.css">';
         echo '<link rel="stylesheet" href="style/concept_tools.css">';
@@ -22,7 +22,7 @@
         echo '</div>';       
      } else {
         echo '<title>Otutor</title>';
-        echo '<link rel="stylesheet" href="style/fibonlanding.css">';
+        echo '<link rel="stylesheet" href="style/fibonlanding.css?v=4">';
         echo '<link rel="stylesheet" href="style/otutor-mobile.css">';
         echo '<p class="error">You must to <a href="fibon_login.php">log in</a> to access this section of Otutor.<p>';
      }

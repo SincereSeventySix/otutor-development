@@ -10,7 +10,7 @@
       echo '<title>' . $_SESSION['username'] . '\'s Otutor</title>';
      }
      ?>
-    <link rel="stylesheet" href="style/fibonlanding.css">
+    <link rel="stylesheet" href="style/fibonlanding.css?v=4">
     <link rel="stylesheet" href="style/otutor-mobile.css">
     <title>Classname Home</title>
   </head>
